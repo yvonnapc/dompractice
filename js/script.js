@@ -30,7 +30,7 @@ $(document).ready(function() {
 /* This is for page.html */
 
 
-  $(document).ready(function(){
+
     $('#blanks form').submit(function(event){
       var person1Input = $("input#person1").val();
       var person2Input = $("input#person2").val();
@@ -44,10 +44,20 @@ $(document).ready(function() {
       $('.animal1').text(animal1Input);
       $('.thing1').text(thing1Input);
 
-    $('#story').show();
+      $('#story').show();
+
+      event.preventDefault();
+    })
+/*-- Page 2 --*/
+  $('#blanks form').submit(function(event){
+    var wordlowercase = $("input#lowercase").val();
+
+
+    $('.phrase').text(wordlowercase.toUpperCase());
+
+
+    $('#return').show();
 
     event.preventDefault();
-    })
   });
-
 });
