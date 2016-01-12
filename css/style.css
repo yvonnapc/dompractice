@@ -15,3 +15,24 @@
   height:300px;
   width:300px;
 }
+
+header {
+  margin-bottom: 30px;
+  text-align:center;
+}
+#story {
+  display:none;
+}
+
+.form-group {
+  width:100%;
+}
+
+
+
+.person1, .person2,
+.place1, .animal1,
+.thing1 {
+  text-decoration:underline;
+  color: green;
+}
