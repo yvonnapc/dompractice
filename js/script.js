@@ -25,8 +25,21 @@ $(document).ready(function() {
 
   $("button#magic2").click(function(){
     $("#img-wrap").css("visibility","visible")
-
   });
 
+/* This is for page.html */
+
+
+  $(document).ready(function(){
+    $('#blanks form').submit(function(){
+      $(".person1").text("blahblah");
+      $(".person2").text("blahblah");
+      $(".place1").text("blahblah");
+      $(".animal1").text("blahblah");
+      $(".thing1").text("blahblah");
+
+    $('#story').show();
+    })
+  });
 
 });
