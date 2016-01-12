@@ -31,14 +31,22 @@ $(document).ready(function() {
 
 
   $(document).ready(function(){
-    $('#blanks form').submit(function(){
-      $(".person1").text("blahblah");
-      $(".person2").text("blahblah");
-      $(".place1").text("blahblah");
-      $(".animal1").text("blahblah");
-      $(".thing1").text("blahblah");
+    $('#blanks form').submit(function(event){
+      var person1Input = $("input#person1").val();
+      var person2Input = $("input#person2").val();
+      var place1Input = $("input#place1").val();
+      var animal1Input = $("input#animal1").val();
+      var thing1Input = $("input#thing1").val();
+
+      $('.person1').text(person1Input);
+      $('.person2').text(person2Input);
+      $('.place1').text(place1Input);
+      $('.animal1').text(animal1Input);
+      $('.thing1').text(thing1Input);
 
     $('#story').show();
+
+    event.preventDefault();
     })
   });
 
