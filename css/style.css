@@ -1,0 +1,17 @@
+#row1 {
+  border-bottom:1px solid #000;
+  height:300px;
+  width:100%;
+  margin-bottom:20px;
+}
+
+#img-wrap {
+  width:300px;
+  height:300px;
+}
+
+.toggle:after {
+  display:block;
+  height:300px;
+  width:300px;
+}
