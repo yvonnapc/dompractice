@@ -10,7 +10,7 @@ Intro to Programming: Ad-Libs Site. This application is an interactice site that
 
 ## Setup/Installation Requirements
 
-1. Open Terminal and clone into this repository: https://github.com/yvonnapc/intro-flashcards.git
+1. Open Terminal and clone into this repository: https://github.com/yvonnapc/intro-adlibs.git
 2. Drag the ```index.html ``` file onto your browser and the site will load
 
 ## Known Bugs
