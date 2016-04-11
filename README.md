@@ -1,6 +1,6 @@
 # _Ad-Libs_
 
-#### A flash-card site of terms and definitions   | January 11, 2016
+#### An interactice ad-lib site   | January 11, 2016
 
 #### By: Yvonna Contreras & Jason Wuerch
 
