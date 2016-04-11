@@ -1,6 +1,6 @@
 # _Ad-Libs_
 
-#### An interactice ad-lib site   | January 12, 2016
+#### An interactive ad-lib site   | January 12, 2016
 
 #### By: Yvonna Contreras & Jason Wuerch
 
